@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "homework-01",
+			"path": "homework01"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true
+	}
+}

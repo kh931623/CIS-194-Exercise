@@ -33,8 +33,7 @@ doubleEveryOther (x : y : xs)
     isEven = even (length xs)
 
 sumDigits :: [Integer] -> Integer
-sumDigits [] = 0
-sumDigits (x : xs) = mod x 10 + div x 10 + sumDigits xs
+sumDigits = foldl (\acc x -> mod x 10 + div x 10 + acc) 0
 
 validate :: Integer -> Bool
 validate 0 = False

@@ -3,6 +3,10 @@
 		{
 			"name": "homework-01",
 			"path": "homework01"
+		},
+		{
+			"path": "homework02",
+			"name": "homework-02",
 		}
 	],
 	"settings": {

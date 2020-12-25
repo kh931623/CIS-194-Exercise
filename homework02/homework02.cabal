@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ef348205d7effec520bbfbca054a0b8f69478c2bdeb02e0921ebf5d5a458e194
+-- hash: 67cc71bd28054b54b0ad2230eb6f8d78ed48ba66a5a6e28e1044adbac2388a29
 
 name:           homework02
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Log
   other-modules:
       Paths_homework02
   hs-source-dirs:

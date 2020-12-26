@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Lib,
       Log
   other-modules:
       Paths_homework02
